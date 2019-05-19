@@ -1,0 +1,74 @@
+python convert.py  /media/dlw/work/featurefusion/bvlc_alexnet/deploy.prototxt \
+--code-output-path=/media/dlw/work/tf_files/caffe2tensorflow/tf_model/bvlc_alexnet.py \
+--caffemodel /media/dlw/work/featurefusion/bvlc_alexnet/bvlc_alexnet.caffemodel \
+--data-output-path=/media/dlw/work/tf_files/caffe2tensorflow/tf_model/bvlc_alexnet.npy
+
+
+python convert.py  /media/dlw/work/image_retrieval/vggf/deploy.prototxt \
+--code-output-path=/media/dlw/work/tf_files/caffe2tensorflow/tf_model/VGGF.py \
+--caffemodel /media/dlw/work/image_retrieval/vggf/VGG_CNN_F.caffemodel \
+--data-output-path=/media/dlw/work/tf_files/caffe2tensorflow/tf_model/VGGF.npy
+
+
+python convert.py  /media/dlw/work/image_retrieval/vggm/deploy.prototxt \
+--code-output-path=/media/dlw/work/tf_files/caffe2tensorflow/tf_model/VGGM.py \
+--caffemodel /media/dlw/work/image_retrieval/vggm/VGG_CNN_M.caffemodel \
+--data-output-path=/media/dlw/work/tf_files/caffe2tensorflow/tf_model/VGGM.npy
+
+
+python convert.py  /media/dlw/work/image_retrieval/vggs/deploy.prototxt \
+--code-output-path=/media/dlw/work/tf_files/caffe2tensorflow/tf_model/VGGS.py \
+--caffemodel /media/dlw/work/image_retrieval/vggs/VGG_CNN_S.caffemodel \
+--data-output-path=/media/dlw/work/tf_files/caffe2tensorflow/tf_model/VGGS.npy
+
+
+python convert.py  /media/dlw/work/image_retrieval/resnet50/ResNet-50-deploy.prototxt \
+--code-output-path=/media/dlw/work/tf_files/caffe2tensorflow/tf_model/Restnet50.py \
+--caffemodel /media/dlw/work/image_retrieval/resnet50/ResNet-50-model.caffemodel \
+--data-output-path=/media/dlw/work/tf_files/caffe2tensorflow/tf_model/Restnet50.npy
+
+
+python convert.py  /media/dlw/work/image_retrieval/googlenet/deploy.prototxt \
+--code-output-path=/media/dlw/work/tf_files/caffe2tensorflow/tf_model/bvlc_googlenet.py \
+--caffemodel /media/dlw/work/image_retrieval/googlenet/bvlc_googlenet.caffemodel \
+--data-output-path=/media/dlw/work/tf_files/caffe2tensorflow/tf_model/bvlc_googlenet.npy
+
+
+
+python convert.py  /media/dlw/work/featurefusion/vgg_network/vgg16/deploy.prototxt \
+--code-output-path=/media/dlw/work/tf_files/caffe2tensorflow/tf_model/bvlc_vgg16.py \
+--caffemodel /media/dlw/work/featurefusion/vgg_network/vgg16/VGG_ILSVRC_16_layers.caffemodel \
+--data-output-path=/media/dlw/work/tf_files/caffe2tensorflow/tf_model/bvlc_vgg16.npy
+
+
+python convert.py  /media/dlw/work/featurefusion/vgg_network/vgg19/deploy.prototxt \
+--code-output-path=/media/dlw/work/tf_files/caffe2tensorflow/tf_model/bvlc_vgg19.py \
+--caffemodel /media/dlw/work/featurefusion/vgg_network/vgg19/VGG_ILSVRC_19_layers.caffemodel \
+--data-output-path=/media/dlw/work/tf_files/caffe2tensorflow/tf_model/bvlc_vgg19.npy
+
+
+python convert.py  /media/dlw/work/featurefusion/vgg_network/vggm128/deploy.prototxt \
+--code-output-path=/media/dlw/work/tf_files/caffe2tensorflow/tf_model/bvlc_vgg128.py \
+--caffemodel /media/dlw/work/featurefusion/vgg_network/vggm128/VGG_CNN_M_128.caffemodel \
+--data-output-path=/media/dlw/work/tf_files/caffe2tensorflow/tf_model/bvlc_vgg128.npy
+
+
+python convert.py  /media/dlw/work/featurefusion/vgg_network/vggm1024/deploy.prototxt \
+--code-output-path=/media/dlw/work/tf_files/caffe2tensorflow/tf_model/bvlc_vgg1024.py \
+--caffemodel /media/dlw/work/featurefusion/vgg_network/vggm1024/VGG_CNN_M_1024.caffemodel \
+--data-output-path=/media/dlw/work/tf_files/caffe2tensorflow/tf_model/bvlc_vgg1024.npy
+
+
+python convert.py  /media/dlw/work/featurefusion/vgg_network/vggm2048/deploy.prototxt \
+--code-output-path=/media/dlw/work/tf_files/caffe2tensorflow/tf_model/bvlc_vgg2048.py \
+--caffemodel /media/dlw/work/featurefusion/vgg_network/vggm2048/VGG_CNN_M_2048.caffemodel \
+--data-output-path=/media/dlw/work/tf_files/caffe2tensorflow/tf_model/bvlc_vgg2048.npy
+
+
+
+
+
+
+
+
+
